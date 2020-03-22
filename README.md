@@ -1,19 +1,16 @@
-= First
+# First
 
-= Convert MOV into GIF
+## Convert MOV into GIF
 
 
+The first one has been converted via the following:
 ```
 ffmpeg -i mvn-clean.mov -s 600x400 -pix_fmt rgb8 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > mvn-clean.gif
 ```
 
-
-Test
-
-The first one:
 ![Gif](/docs/resources/mvn-clean.gif)
 
-the following GIF has been converted via the following command:
+The next GIF has been converted via the following command:
 
 ```
 ffmpeg -i mvn-clean.mov -s 300x200 -pix_fmt rgb8 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > mvn-clean.gif
