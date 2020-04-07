@@ -20,5 +20,5 @@ ffmpeg -i mvn-clean.mov -s 300x200 -pix_fmt rgb8 -r 10 -f gif - | gifsicle --opt
 ```
 ffmpeg -i rust-example.mov -s 300x200 -pix_fmt rgb8 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > rust-example.gif
 ```
-![Gif](/docs/resources/rust-example.gif)
+![Rust Example IDEA](/docs/resources/rust-example-idea.mov)
 
